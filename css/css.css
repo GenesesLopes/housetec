@@ -1,0 +1,201 @@
+body{
+     width:100%;
+}
+form {
+    text-align: center;
+    border-color: black;
+    font-family: Tahoma;
+    font-size: 15px;
+    border-radius: 3px 3px 3px 3px;
+
+}
+h1{
+	margin: 30px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 20px;
+}
+.meio{
+	float:center;
+	text-align:center;
+}
+.imagemtopo {
+  text-align: center;
+  float: center;
+}
+.imagemvoltar{
+	float:right;
+}
+.link{
+	text-decoration: none-
+}
+.imagemcabeca {
+  text-align: center;
+}
+#datadepagamento{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;	
+}
+#numeropredio{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#bairropredio{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#ceppredio{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#numeropredio{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;	
+}
+#locatariolocalizar1{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#name{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#datadenascimento{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#cidade{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#rg{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#cpf{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#telefone{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#telefone1{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#prediolocalizar{
+	width: 50%;
+	border-radius: 5px 5px 5px 5px;
+}
+#idcancelar{
+	border-radius: 5px 5px 5px 5px;
+	width: 7%;
+	margin: 10px; 
+	padding: 0;
+}
+#idcancelar:hover{
+    border: solid 1.5px black;
+    cursor: pointer;
+}
+#idconfirmar{
+	border-radius: 5px 5px 5px 5px;
+	width: 7%;
+	margin: 0; 
+	padding: 0;
+}
+#idconfirmar:hover{
+    border: solid 1.5px black;
+    cursor: pointer;
+}
+#cadastraradm{
+	border-radius: 5px 5px 5px 5px;
+	width: 9%;
+	margin: 0px; 
+	padding: 0;
+}
+#cadastraradm:hover{
+    border: solid 1.5px black;
+    cursor: pointer;
+}
+#voltarlogin{
+	border-radius: 5px 5px 5px 5px;
+	width: 7%;
+	margin: 0px; 
+	padding: 0;
+}
+#voltarlogin:hover{
+    border: solid 1.5px black;
+    cursor: pointer;
+}
+ form {
+    margin:100px;
+    width: 80%; 
+    border-color: black;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 3px 3px 3px 3px;
+}
+#cpfform{
+	margin-left: 10px;
+	width: 40%;
+	border-radius: 5px 5px 5px 5px;
+
+}
+.labelcpf{
+	font-family: Verdana;
+	font-size: 15px;
+}
+#senhaform{
+	margin-left: 10px;
+	width: 40%;
+	border-radius: 5px 5px 5px 5px;
+}
+.imgefeito {
+	margin: 0;
+	overflow: hidden;
+	float: center;
+}
+.imgefeito a {
+	text-decoration: none;
+	float: center;
+}
+.imgefeito a:hover {
+	cursor: pointer;
+}
+
+.imgefeito a img {
+	float: center;
+	margin: 0;
+	border: none;
+	padding: 10px;
+	background: #fff;
+}
+
+.imgefeito a:hover .desc{
+	display: block;
+	font-size: 12px;
+	font-family: Verdana;
+	padding: 10px 0;
+	background: #111;
+	filter:alpha(opacity=75);
+	opacity:.75;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)"; /*--IE 8 Transparency--*/
+	color: #fff;
+	padding: 10px;
+	margin: 0;
+	width: 208px;
+	border-top: 1px solid #999;
+}
+.imgefeito a:hover .desc strong {
+	display: block;
+	margin-bottom: 5px;
+	font-size:1.5em;
+}
+
+.imgefeito a .desc {	display: none; }
+h1{
+	font-size: 15px;
+	font-family: Verdana;
+}
