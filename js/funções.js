@@ -1,3 +1,6 @@
+$(document).ready(function($){
+
+
 //Ajax Buscar Predio Tabela
 function buscaPredioTabela(){
 	var local = document.getElementById("locPredio").value;
@@ -149,7 +152,22 @@ function buscaApartamentoLivre(){
 
 	});
 }
+
+//Função para desativar
+$(document).on('click','#maior',function(){
+	$('.maior').prop("hidden",true);//ocutar div
+	$('.menor').prop("hidden",false);//Revelar Div
+});
+
+$(document).on('click','#menor',function(){
+	$('.menor').prop("hidden",true);//ocutar div
+	$('.maior').prop("hidden",false);//Revelar Div
+});
+
+
 //Popover
 $(function () {
         $('[data-toggle="popover"]').popover({html: true})
  });
+
+});
